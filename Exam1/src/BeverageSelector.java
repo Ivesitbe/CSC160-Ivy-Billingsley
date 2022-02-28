@@ -11,10 +11,13 @@ public class BeverageSelector {
 		drinkChoice = in.nextInt();
 		switch (drinkChoice){
 			case 1 : System.out.print("You chose water, Good job making the healthy choice");
+			break;
 			
 			case 2 : System.out.print("you chose coke, make sure to brush your teeth tonight");
+			break;
 			
 			case 3 : System.out.print("Oh Yuck I can't believe you chose coffee, Well here you are");
+			break;
 		}
 		
 	}
