@@ -35,7 +35,8 @@ public class StringKnowledge {
 			
 			for(int i = 0; i < phrase2.length(); i++) 
 			{
-				if(phrase2.charAt(i) == phrase1.charAt(0)) {
+				if(phrase2.charAt(i) == phrase1.charAt(0)) 
+				{
 					compareString = "";
 				}
 				compareString = compareString + phrase2.charAt(i);
